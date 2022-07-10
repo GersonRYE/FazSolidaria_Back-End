@@ -43,7 +43,7 @@ public class Produto {
 	@NotNull
 	private String descricao;
 	
-	private Integer qtd;
+	private Integer qtd = 1;
 
 	@JoinColumn(name = "categoria_id", nullable = false)
 	@ManyToOne
